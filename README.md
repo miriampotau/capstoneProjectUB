@@ -7,9 +7,11 @@ Thayane: 8/19 a 2/20
 Sara: 3/20 a 9/20
 Pol: 10/20 a 4/21
 
+Carpeta clean datasets. Cargar csv listings con la fecha en el nombre (listings_aammdd).
+
 Criterios limpieza: drop de todas las columnas que sobran (notebook Pol), bucar NaN ó celdas vacías ó datos inconsistes y eliminar esos listings, verificar que no haya listings_id duplicados. Comprobar que la disponibilidad sea consistente (true y que luego no sean 0 todos los valores).
 
-Buscar datos Covid en Cataluña para cada mes que nos corresponda (nº de casos positivos detectados ese mes): https://dadescovid.cat/
+Buscar datos Covid en Cataluña para cada mes que nos corresponda (nº de casos positivos detectados el el último mes hasta la fecha del dataset): https://dadescovid.cat/
 
 Paso 2. Pensar el modelo para predecir la ocupación en Airbnb en Barcelona el verano de 2021. Modelo time series? Transformar los datasets para introducir en el modelo.
 
